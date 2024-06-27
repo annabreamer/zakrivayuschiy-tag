@@ -2,8 +2,8 @@
 :root {
     --main-font-family: "Inter", sans-serif;
     --accent-font-family: "Press Start 2P", sans-serif;
-    --main-font-size: 400;
-    --heading-font-size: 700;
+    --main-font-weight: 400;
+    --heading-font-weight: 700;
     --accent-color: #000000;
     --background-color: #FFFFFF;
     --background-image:

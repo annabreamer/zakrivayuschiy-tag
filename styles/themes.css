@@ -13,7 +13,9 @@
     repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
     repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-    --text-shadow: #FFFFFF
+    --text-shadow: #FFFFFF;
+    --text-color-inverted: #FFFFFF;
+    --heart-contour: #000000;
 }
 
 :root.theme-dark {
@@ -26,6 +28,8 @@
     repeating-linear-gradient(to bottom, #000, transparent 2px),
     linear-gradient(to bottom, #007f0c, #004306);
     --text-shadow: #000000;
+    --text-color-inverted: #00CC14;
+    --heart-contour: #00CC14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,5 +43,7 @@
         repeating-linear-gradient(to bottom, #000, transparent 2px),
         linear-gradient(to bottom, #007f0c, #004306);
         --text-shadow: #000000;
+        --text-color-inverted: #00CC14;
+        --heart-contour: #00CC14;
     }
 }

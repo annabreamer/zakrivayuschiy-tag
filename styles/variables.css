@@ -11,4 +11,7 @@
     repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
     --text-shadow: #FFFFFF;
+    --text-color-inverted: #FFFFFF;
+    --heart-contour: #000000;
+    --heart-fill: #FF0000;
 }

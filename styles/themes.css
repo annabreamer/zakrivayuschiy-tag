@@ -13,6 +13,7 @@
     repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
     repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --text-shadow: #FFFFFF
 }
 
 :root.theme-dark {
@@ -24,6 +25,7 @@
     repeating-linear-gradient(to right, #000, transparent 2px),
     repeating-linear-gradient(to bottom, #000, transparent 2px),
     linear-gradient(to bottom, #007f0c, #004306);
+    --text-shadow: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,5 +38,6 @@
         repeating-linear-gradient(to right, #000, transparent 2px),
         repeating-linear-gradient(to bottom, #000, transparent 2px),
         linear-gradient(to bottom, #007f0c, #004306);
+        --text-shadow: #000000;
     }
 }

@@ -245,29 +245,34 @@
 }
 
 .card__like-button:focus,
-.card__icon-button:focus {
+.card__icon-button:focus,
+.dialog__button:focus {
   box-shadow: 2px 2px 0 currentColor;
   outline: none;
   transition: box-shadow 0.3s ease;
 }
 
 .card__like-button,
-.card__icon-button {
+.card__icon-button,
+.dialog__button {
   position: relative;
 }
 
 .card__like-button:hover,
-.card__icon-button:hover {
+.card__icon-button:hover,
+.dialog__button:hover {
   cursor: pointer;
 }
 
 .card__like-button:hover::after,
-.card__icon-button:hover::after {
+.card__icon-button:hover::after,
+.dialog__button:hover::after {
   transform: scaleX(1);
 }
 
 .card__like-button::after,
-.card__icon-button::after {
+.card__icon-button::after,
+.dialog__button::after {
   content: "";
   position: absolute;
   display: block;

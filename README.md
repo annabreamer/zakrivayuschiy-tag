@@ -1,2 +1,2 @@
 # Закрывающийся тег
-https://annabreamer.github.io/zakrivayuschiy-teg-f/
+https://github.com/annabreamer/zakrivayuschiy-teg-f

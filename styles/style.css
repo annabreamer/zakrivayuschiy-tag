@@ -346,36 +346,35 @@ dialog .floppy {
 }
 
 .happiness {
-  mix-blend-mode: exclusion;
+  filter: blur(0.5px);
 }
 
 .mountains {
-  mix-blend-mode: difference;
+  filter: brightness(0.4);
 }
 
 .persistence {
-  mix-blend-mode: darken;
+  filter: contrast(200%);
 }
 
 .drafts {
-  mix-blend-mode: luminosity;
+  filter: grayscale(50%);
 }
 
 .couple {
-  mix-blend-mode: normal;
+  filter: invert(5%);
 }
 
 .cooking {
-  mix-blend-mode: multiply;
+  filter: opacity(75%);
 }
 
 .planner {
-  background-image: linear-gradient(black, transparent);
-  background-blend-mode: multiply;
+  filter: contrast(175%) brightness(30%);
 }
 
 .path {
-  mix-blend-mode: hard-light;
+  filter: saturate(30%);
 }
 
 @media (width <= 375px) {

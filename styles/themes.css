@@ -34,14 +34,6 @@
   --heart-contour: #00cc14;
 }
 
-:root.theme-dark .persistence {
-  mix-blend-mode: lighten;
-}
-
-:root.theme-dark .cooking {
-  mix-blend-mode: hard-light;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --main-font-weight: 465;
@@ -58,13 +50,5 @@
     --text-shadow: #000000;
     --text-color-inverted: #00cc14;
     --heart-contour: #00cc14;
-  }
-
-  .persistence {
-    mix-blend-mode: lighten;
-  }
-
-  .cooking {
-    mix-blend-mode: hard-light;
   }
 }
